@@ -1,0 +1,68 @@
+body{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    border: 5px solid blue;
+    font: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.structural{
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+    color: solid blue;
+    font-size: larger;
+}
+h2{
+    color: orange;
+    font-size: 20px;
+}
+main{
+    height: 70vh;
+}
+img{
+    border: 2px solid orangered;
+    width: 90%;
+    height: 80%;
+}
+figure{
+    background-color: orangered;
+    width: 45%;
+    height: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+}
+section{
+    clear: both;
+}
+figure:nth-child(1){
+    float: left;
+}
+figure:nth-child(2){
+    float: right;
+}
+figcaption{
+    font-weight: bold;
+    font-size: 15px;
+    color: #0066cc;
+    padding: 5px;
+}
+a{
+    color: #0066cc;
+    text-decoration: none;
+}
+a:hover{
+    color: pink;
+}
+ul{
+    list-style-type: square;
+    line-height: 1.5;
+}
+header,footer{
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
